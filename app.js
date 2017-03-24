@@ -17,7 +17,7 @@ var User= require("./models/user");
 //Mongoose
 var mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
-mongoose.connect("mongodb://172.30.10.55:27017/Test");
+mongoose.connect("mongodb://prueba:prueba@ds141450.mlab.com:41450/usa_db");
 
 var index = require('./routes/index');
 var users = require('./routes/users');
